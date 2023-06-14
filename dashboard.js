@@ -21,7 +21,7 @@ function handleQueryResponse(response) {
 
 function drawCharts(data) {
     var options = {
-        title: 'Judul Grafik',
+        title: 'Grafik Penjualan Makanan ',
         width: 400,
         height: 300
     };
