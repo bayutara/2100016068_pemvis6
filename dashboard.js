@@ -35,7 +35,7 @@ function drawCharts(data) {
     var chart2 = new google.visualization.LineChart(document.getElementById('chart3'));
     chart2.draw(data, options);
 
-    var chart2 = new google.visualization.BubbleChart(document.getElementById('chart4'));
+    var chart2 = new google.visualization.BarChart(document.getElementById('chart4'));
     chart2.draw(data, options);
 
     // Tambahkan jenis grafik lain dan elemen div untuk grafik lainnya
